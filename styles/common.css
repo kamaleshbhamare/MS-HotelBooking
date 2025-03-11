@@ -1,8 +1,9 @@
-html, body {
+body {
     height: 100%;
     width: 100%;
     padding: 0;
     margin: 0;
+    background-color: #e0e0e0;
 }
 
 .logo {
@@ -13,4 +14,8 @@ html, body {
 .social_media_logos {
     height: 20px;
     width: 22px;
+}
+
+header, footer {
+    background-color: rosybrown;
 }

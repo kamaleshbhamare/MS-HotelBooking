@@ -1,4 +1,18 @@
 .city_images {
+    display: flex;
     height: 150px;
     width: 150px;
+    border-radius: 25%;
+    padding: 10%;
+}
+
+.city-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    /* gap: 50px; */
 }
